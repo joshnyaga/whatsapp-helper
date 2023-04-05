@@ -2,11 +2,15 @@
   "name": "whatsapp-helper",
   "version": "1.0.0",
   "description": "I am trying to create a fully featured whatsapp bot helper to do a number of functionalities",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.63.0",
+    "nodemon": "^2.0.22"
+  }
 }
